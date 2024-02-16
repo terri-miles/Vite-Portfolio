@@ -3,6 +3,7 @@ import airport_haven from '../assets/airport-haven.png';
 import buyin_img from '../assets/buyin.png';
 import flikpulse_img from '../assets/flickpulse.png';
 import spotify_clone_img from '../assets/spotify-clone.png';
+import gym from '../assets/gym.png'
 
 
 export const all_projects = [
@@ -12,7 +13,7 @@ export const all_projects = [
         stack: ['ReactJs', 'Tailwind'],
         image: portfolio_img,
         href1: '#',
-        href2: '#'
+        href2: 'https://github.com/terri-miles/Vite-Portfolio/tree/main/my-portfolio'
     },
     {
         id: 1,
@@ -46,5 +47,14 @@ export const all_projects = [
         href1: 'https://spotify-clone-me.netlify.app/',
         href2: 'https://github.com/terri-miles/my-spotify-clone'
     },
+    {
+        
+        id: 5,
+        name: 'EVOGYM - Typescript',
+        stack: ['ReactJs','Typescript', 'Tailwind'],
+        image: gym,
+        href1: 'https://my-evogym-typescript.netlify.app/',
+        href2: 'https://github.com/terri-miles/Vite---React-Gym/tree/main/typescript-gym'
+    }
 ]
 
