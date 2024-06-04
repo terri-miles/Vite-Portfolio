@@ -17,7 +17,7 @@ function Home() {
                     <div className='lg:absolute lg:right-[488px] lg:bottom-[315px] text-[26px] z-10'>&#128075;</div>
                 </div>
                 <div className='mt-[24px]'>
-                    <h1 className='sm:text-[24px] sm:mx-[16px] md:px-[24px] md:text-[32px] lg:text-[35px] md:leading-[35px] lg:leading-[50px] text-center text-gray-400 font-extralight break-words'>🚀 Hello World!<span className='font-extrabold text-white'> I'm Prince.</span> I am a  passionate  <span className='font-extrabold text-white'>front-end developer</span> on a mission to transform ideas into engaging, user-centric web experiences. I enjoy building websites and my focus is <span className='font-extrabold text-white underline'>React and Typescript</span>.</h1>
+                    <h1 className='sm:text-[24px] sm:mx-[16px] md:px-[24px] md:text-[32px] lg:text-[35px] md:leading-[35px] lg:leading-[50px] text-center text-gray-400 font-extralight break-words'>🚀 Hello World!<span className='font-extrabold text-white'> I'm Prince.</span> I am a  passionate  <span className='font-extrabold text-white'>MERN stack developer</span> on a mission to transform ideas into engaging, user-centric web experiences. I enjoy building websites and my focus is <span className='font-extrabold text-white underline'>solving problems</span>.</h1>
                 </div>
                 <div className='flex sm:flex-col md:flex-row items-center gap-[20px] mt-[40px]'>
                     <a className='bg-[#7eadfc] hover:bg-[#b3cfff] py-3 px-10 rounded-full text-[#0f172a]  md:text-md font-bold' href="#Contacts">Contact me here <IoIosArrowRoundForward className='inline sm:text-sm md:text-[16px] text-[#07172a]'/></a>

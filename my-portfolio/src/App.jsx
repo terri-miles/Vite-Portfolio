@@ -1,25 +1,22 @@
-import AboutMe from "./Components/AboutMe"
-import Contacts from "./Components/Contacts"
-import Footer from "./Components/Footer"
-import Home from "./Components/Home"
-import NavBar from "./Components/NavBar"
-import Projects from "./Components/Projects"
-import Skills from "./Components/Skills"
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import MainPage from "./Components/MainPage";
+import MyProjects from "./Components/MyProjects";
 
 function App() {
-
   return (
     <>
-     <NavBar />
-     <Home />
-     <Projects />
-     <AboutMe />
-     <Skills />
-     <Contacts />
-     <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/projects" element={<MyProjects />} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
