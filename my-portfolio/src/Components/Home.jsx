@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import hero_img from '../assets/Hero.JPG';
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import CV_frontend from '../assets/CV-Frontend Dev.pdf';
+import CV_MERNstack from '../assets/MERN_stackCV.pdf';
 
 function Home() {
   return (
@@ -21,7 +21,7 @@ function Home() {
                 </div>
                 <div className='flex sm:flex-col md:flex-row items-center gap-[20px] mt-[40px]'>
                     <a className='bg-[#7eadfc] hover:bg-[#b3cfff] py-3 px-10 rounded-full text-[#0f172a]  md:text-md font-bold' href="#Contacts">Contact me here <IoIosArrowRoundForward className='inline sm:text-sm md:text-[16px] text-[#07172a]'/></a>
-                    <a download={CV_frontend} className='bg-white hover:bg-[#d0d0d0] text-[#07172a] sm:text-sm md:text-md py-3 px-10 rounded-full font-bold' href={CV_frontend}>Download CV <FaDownload className='inline ml-2 sm:text-sm md:text-[16px]'/> </a>
+                    <a download={CV_MERNstack} className='bg-white hover:bg-[#d0d0d0] text-[#07172a] sm:text-sm md:text-md py-3 px-10 rounded-full font-bold' href={CV_MERNstack}>Download CV <FaDownload className='inline ml-2 sm:text-sm md:text-[16px]'/> </a>
                     <div className='flex gap-[16px] bg-white/10 py-3 px-6 rounded-full'>
                         <a href="https://www.linkedin.com/in/oteri-prince-3077542ab/" target='_blank'><FaLinkedin className='text-white text-[24px] hover:text-[#7eadfc]'/></a>
                         <a href="https://twitter.com/gold_ugly" target='_blank'><FaSquareXTwitter className='text-white text-[24px] hover:text-[#7eadfc]'/></a>
