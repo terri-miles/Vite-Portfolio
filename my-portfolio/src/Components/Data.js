@@ -5,6 +5,7 @@ import flikpulse_img from "../assets/flickpulse.png";
 import spotify_clone_img from "../assets/spotify-clone.png";
 import gym from "../assets/gym.png";
 import Lib from "../assets/library.png";
+import realEstate from "../assets/realEstate.png";
 
 export const grid_projects = [
   {
@@ -63,7 +64,7 @@ export const all_projects = [
   {
     id: 3,
     name: "FlickPulse Website",
-    stack: ["ReactJs", "Tailwind", "TMDB API",],
+    stack: ["ReactJs", "Tailwind", "TMDB API"],
     image: flikpulse_img,
     href1: "https://my-flickpulse.netlify.app/",
     href2: "https://github.com/terri-miles/Vite-FlickPulse",
@@ -88,9 +89,17 @@ export const all_projects = [
   {
     id: 6,
     name: "Alogba Library",
-    stack: ["ReactJs", "Typescript", "Tailwind",],
+    stack: ["ReactJs", "Typescript", "Tailwind"],
     image: Lib,
     href1: "https://alogba-library.netlify.app/",
     href2: "https://github.com/terri-miles/Vite-Alogba-Lib",
+  },
+  {
+    id: 7,
+    name: "LamaEstate",
+    stack: ["MERN stack"],
+    image: realEstate,
+    href1: "https://express-realestate.vercel.app",
+    href2: "https://github.com/terri-miles/real-estate-website",
   },
 ];

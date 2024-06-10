@@ -57,8 +57,8 @@ function ProjectGrid() {
           })}
         </div>
         <Link to="/projects">
-          <div className="mt-10 flex items-end justify-end cursor-pointer underline transition ease-in-out duration-300 hover:text-[#7eadfc]">
-            <button className="flex justify-center items-center gap-2">
+          <div className="mt-10 flex items-end justify-end cursor-pointer">
+            <button className="flex justify-center items-center gap-2  border-b border-white transition ease-in-out duration-300 hover:border-[#7eadfc] hover:text-[#7eadfc]">
               See more <GoArrowRight />
             </button>
           </div>{" "}
